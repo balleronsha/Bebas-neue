@@ -1,0 +1,1423 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 1440px;
+  display: block;
+  margin: 0 auto;
+  font-family: 'Bebas Neue', sans-serif;
+}
+/* первая секция */
+/* вставляла для соотношения размеров */
+/* .section-1 {
+  background-image: url('../images/hollst1.jpg');
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 850px;
+} */
+.section-1 {
+  display: flex;
+  width: 100%;
+  height: 850px;
+  background-color: #d2c1a7;
+  overflow: hidden;
+  position: relative;
+}
+.section-1 
+/* дорожный указаель */
+.ykazatel {
+  width: 270px;
+  height: 820px;
+  margin-top: 37px;
+}
+.slovaykaz p {
+  color: #e9e1d5;
+  position: absolute;
+  z-index: 3;
+}
+.slovaykaz p:nth-of-type(1) {
+  font-size: 32px;
+  font-weight: 700;
+  top: 482px;
+  left: 127px;
+  transform: rotate(4.14deg);
+}
+.slovaykaz p:nth-of-type(2) {
+  font-size: 32px;
+  font-weight: 400;
+  top: 395px;
+  left: 83px;
+  transform: rotate(-15.34deg);
+}
+.slovaykaz p:nth-of-type(3) {
+  font-size: 64px;
+  font-weight: 400;
+  top: 275px;
+  left: 106px;
+  transform: rotate(-16deg);
+}
+.slovaykaz p:nth-of-type(4) {
+  font-size: 64px;
+  font-weight: 700;
+  top: 163px;
+  left: 64px;
+  transform: rotate(7.78deg);
+}
+.slovaykaz p:nth-of-type(5) {
+  font-size: 32px;
+  font-weight: 400;
+  top: 85px;
+  left: 113px;
+  transform: rotate(-15.34deg);
+}
+/* банер для текста */
+.text {
+  background-image: url('../images/baner.svg');
+  background-repeat: no-repeat;
+  width: 976px;
+  height: 744px;
+  margin-top: 115px;
+  margin-left: -3px;
+}
+.text h1 {
+  font-size: 250px;
+  font-weight: 700;
+  color: #e9e1d5;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+.text p {
+  font-size: 36px;
+  color: #e9e1d5;
+  margin-top: -20px;
+  margin-left: 35px;
+}
+/* кактус 1 нижний лево */
+.kaktus-one {
+  position: absolute;
+  top: 594px;
+  left: 40px;
+  width: 428px;
+  height: 264px;
+}
+/* кактус колесо право  */
+.koleso1 {
+  position: absolute;
+  top: 213px;
+  left: 1150px;
+}
+
+/* вторая секция */
+.section-2 {
+  display: flex;
+  width: 100%;
+  height: 850px;
+  background-color: #747a56;
+  overflow: hidden;
+  position: relative;
+}
+.section-2 div h3 {
+  font-size: 120px;
+  color: #e9e1d5;
+  margin-top: 43px;
+  margin-left: 600px;
+}
+/* флажки 1 */
+.flazhki1 {
+  position: absolute;
+  height: 365px;
+  width: 1617px;
+  left: -124px;
+  top: 0;
+  background-image: url('../images/flazhki.svg');
+  /* background-repeat: no-repeat; */
+  background-size: contain;
+}
+.flazhki1 p {
+  font-size: 96px;
+  font-weight: 400;
+  color: #e9e1d5;
+  position: absolute;
+}
+.flazhki1 p:nth-of-type(1) {
+  top: 140px;
+  left: 195px;
+  transform: rotate(17.47deg);
+}
+.flazhki1 p:nth-of-type(2) {
+  top: 171px;
+  left: 322px;
+  transform: rotate(13.6deg);
+}
+.flazhki1 p:nth-of-type(3) {
+  top: 200px;
+  left: 481px;
+  transform: rotate(8.2deg);
+}
+.flazhki1 p:nth-of-type(4) {
+  top: 207px;
+  left: 612px;
+  transform: rotate(3.8deg);
+}
+.flazhki1 p:nth-of-type(5) {
+  top: 222px;
+  left: 752px;
+  transform: rotate(2.45deg);
+}
+.flazhki1 p:nth-of-type(6) {
+  top: 217px;
+  left: 878px;
+  transform: rotate(0.04deg);
+}
+.flazhki1 p:nth-of-type(7) {
+  top: 214px;
+  left: 1049px;
+  transform: rotate(-2.45deg);
+}
+.flazhki1 p:nth-of-type(8) {
+  top: 214px;
+  left: 1174px;
+  transform: rotate(-8.2deg);
+  font-size: 64px;
+}
+.flazhki1 p:nth-of-type(9) {
+  top: 174px;
+  left: 1325px;
+  transform: rotate(-14.26deg);
+}
+.flazhki1 p:nth-of-type(10) {
+  top: 116px;
+  left: 1450px;
+  transform: rotate(6.65deg);
+  font-size: 120px;
+}
+/* флажки 2 */
+.flazhki2 {
+  position: absolute;
+  height: 365px;
+  width: 1617px;
+  left: -124px;
+  top: 225px;
+  background-image: url('../images/flazhki.svg');
+  /* background-repeat: no-repeat; */
+  background-size: contain;
+}
+.flazhki2 p {
+  font-size: 96px;
+  font-weight: 400;
+  color: #e9e1d5;
+  position: absolute;
+}
+.flazhki2 p:nth-of-type(1) {
+  top: 140px;
+  left: 190px;
+  transform: rotate(23deg);
+}
+.flazhki2 p:nth-of-type(2) {
+  top: 175px;
+  left: 322px;
+  transform: rotate(14.2deg);
+}
+.flazhki2 p:nth-of-type(3) {
+  top: 200px;
+  left: 465px;
+  transform: rotate(6.65deg);
+}
+.flazhki2 p:nth-of-type(4) {
+  top: 215px;
+  left: 605px;
+  transform: rotate(4.16deg);
+}
+.flazhki2 p:nth-of-type(5) {
+  top: 220px;
+  left: 750px;
+  transform: rotate(1.65deg);
+}
+.flazhki2 p:nth-of-type(6) {
+  top: 217px;
+  left: 892px;
+}
+.flazhki2 p:nth-of-type(7) {
+  top: 212px;
+  left: 1038px;
+  transform: rotate(-2deg);
+}
+.flazhki2 p:nth-of-type(8) {
+  top: 203px;
+  left: 1184px;
+  transform: rotate(-10deg);
+}
+.flazhki2 p:nth-of-type(9) {
+  top: 170px;
+  left: 1324px;
+  transform: rotate(-15.88deg);
+}
+.flazhki2 p:nth-of-type(10) {
+  top: 124px;
+  left: 1474px;
+  transform: rotate(-32deg);
+}
+/* флажки 3 */
+.flazhki3 {
+  position: absolute;
+  height: 365px;
+  width: 1617px;
+  left: -124px;
+  top: 458px;
+  background-image: url('../images/flazhki.svg');
+  /* background-repeat: no-repeat; */
+  background-size: contain;
+}
+.flazhki3 p {
+  font-size: 96px;
+  font-weight: 400px;
+  color: #e9e1d5;
+  position: absolute;
+  z-index: 3;
+}
+.flazhki3 p:nth-of-type(1) {
+  top: 142px;
+  left: 185px;
+  transform: rotate(20deg);
+}
+.flazhki3 p:nth-of-type(2) {
+  top: 172px;
+  left: 310px;
+  transform: rotate(12deg);
+}
+.flazhki3 p:nth-of-type(3) {
+  top: 185px;
+  left: 480px;
+  transform: rotate(6.6deg);
+}
+.flazhki3 p:nth-of-type(4) {
+  top: 215px;
+  left: 608px;
+  transform: rotate(4.45deg);
+}
+.flazhki3 p:nth-of-type(5) {
+  top: 220px;
+  left: 750px;
+  transform: rotate(6.65deg);
+}
+.flazhki3 p:nth-of-type(6) {
+  top: 217px;
+  left: 890px;
+}
+.flazhki3 p:nth-of-type(7) {
+  top: 212px;
+  left: 1039px;
+  transform: rotate(-2deg);
+}
+.flazhki3 p:nth-of-type(8) {
+  top: 202px;
+  left: 1185px;
+  transform: rotate(-4deg);
+}
+.flazhki3 p:nth-of-type(9) {
+  top: 175px;
+  left: 1325px;
+  transform: rotate(-14.29deg);
+}
+.flazhki3 p:nth-of-type(10) {
+  top: 125px;
+  left: 1480px;
+  transform: rotate(-33deg);
+}
+
+/* Секция 3 */
+.section-3 {
+  display: flex;
+  width: 100%;
+  height: 850px;
+  background-color: #682d0f;
+  overflow: hidden;
+  position: relative;
+}
+
+.kamushek1 {
+  position: absolute;
+  height: 190px;
+  width: 190px;
+  top: 60px;
+  left: 21px;
+  background-repeat: no-repeat;
+}
+.kamushek2 {
+  position: absolute;
+  height: 147px;
+  width: 147px;
+  top: 50px;
+  left: 260px;
+  background-repeat: no-repeat;
+}
+.kamushek3 {
+  position: absolute;
+  height: 177px;
+  width: 177px;
+  top: 104px;
+  left: 430px;
+  background-repeat: no-repeat;
+}
+.kamushek4 {
+  position: absolute;
+  height: 185px;
+  width: 178px;
+  top: 23px;
+  left: 620px;
+  background-repeat: no-repeat;
+}
+.kamushek5 {
+  position: absolute;
+  height: 147px;
+  width: 147px;
+  top: 77px;
+  left: 830px;
+  background-repeat: no-repeat;
+}
+.kamushek6 {
+  position: absolute;
+  height: 185px;
+  width: 178px;
+  top: 50px;
+  left: 1007px;
+  background-repeat: no-repeat;
+}
+.kamushek7 {
+  position: absolute;
+  height: 147px;
+  width: 147px;
+  top: 46px;
+  left: 1263px;
+  background-repeat: no-repeat;
+}
+.kamushek8 {
+  position: absolute;
+  height: 147px;
+  width: 147px;
+  top: 369px;
+  left: 48px;
+  background-repeat: no-repeat;
+}
+.kamushek9 {
+  position: absolute;
+  height: 185px;
+  width: 178px;
+  top: 227px;
+  left: 205px;
+  background-repeat: no-repeat;
+}
+.kamushek10 {
+  position: absolute;
+  height: 185px;
+  width: 178px;
+  top: 325px;
+  left: 387px;
+  background-repeat: no-repeat;
+}
+.kamushek11 {
+  position: absolute;
+  height: 147px;
+  width: 147px;
+  top: 233px;
+  left: 587px;
+  background-repeat: no-repeat;
+}
+.kamushek12 {
+  position: absolute;
+  height: 185px;
+  width: 178px;
+  top: 255px;
+  left: 754px;
+  background-repeat: no-repeat;
+}
+.kamushek13 {
+  position: absolute;
+  height: 147px;
+  width: 147px;
+  top: 244px;
+  left: 976px;
+  background-repeat: no-repeat;
+}
+.kamushek14 {
+  position: absolute;
+  height: 147px;
+  width: 147px;
+  top: 370px;
+  left: 1110px;
+  background-repeat: no-repeat;
+}
+.kamushek15 {
+  position: absolute;
+  height: 147px;
+  width: 147px;
+  top: 220px;
+  left: 1224px;
+  background-repeat: no-repeat;
+}
+.kamushek16 {
+  position: absolute;
+  height: 185px;
+  width: 185px;
+  top: 590px;
+  left: 32px;
+  background-repeat: no-repeat;
+}
+.kamushek17 {
+  position: absolute;
+  height: 147px;
+  width: 147px;
+  top: 483px;
+  left: 228px;
+  background-repeat: no-repeat;
+}
+.kamushek18 {
+  position: absolute;
+  height: 147px;
+  width: 147px;
+  top: 676px;
+  left: 279px;
+  background-repeat: no-repeat;
+}
+.kamushek19 {
+  position: absolute;
+  height: 147px;
+  width: 147px;
+  top: 597px;
+  left: 440px;
+  background-repeat: no-repeat;
+}
+.kamushek20 {
+  position: absolute;
+  height: 185px;
+  width: 185px;
+  top: 455px;
+  left: 579px;
+  background-repeat: no-repeat;
+}
+.kamushek20 {
+  position: absolute;
+  height: 185px;
+  width: 185px;
+  top: 455px;
+  left: 579px;
+  background-repeat: no-repeat;
+}
+.kamushek21 {
+  position: absolute;
+  height: 147px;
+  width: 147px;
+  top: 455px;
+  left: 838px;
+  background-repeat: no-repeat;
+}
+.kamushek22 {
+  position: absolute;
+  height: 185px;
+  width: 185px;
+  top: 518px;
+  left: 978px;
+  background-repeat: no-repeat;
+}
+.kamushek23 {
+  position: absolute;
+  height: 185px;
+  width: 185px;
+  top: 470px;
+  left: 1246px;
+  background-repeat: no-repeat;
+}
+.kamushek24 {
+  position: absolute;
+  height: 185px;
+  width: 185px;
+  top: 635px;
+  left: 578px;
+  background-repeat: no-repeat;
+}
+.kamushek25 {
+  position: absolute;
+  height: 147px;
+  width: 147px;
+  top: 647px;
+  left: 823px;
+  background-repeat: no-repeat;
+}
+.kamushek26 {
+  position: absolute;
+  height: 147px;
+  width: 147px;
+  top: 658px;
+  left: 1138px;
+  background-repeat: no-repeat;
+}
+/* Буквы камни */
+.kamushki p {
+  font-size: 120px;
+  font-weight: 400;
+  color: #4b342c;
+  position: absolute;
+  z-index: 3;
+}
+/* A */
+.kamushki p:nth-last-of-type(26) {
+  top: 92px;
+  left: 95px;
+}
+/* B */
+.kamushki p:nth-last-of-type(25) {
+  top: 65px;
+  left: 292px;
+}
+/* C */
+.kamushki p:nth-last-of-type(24) {
+  top: 146px;
+  left: 480px;
+}
+/* D */
+.kamushki p:nth-last-of-type(23) {
+  top: 62px;
+  left: 694px;
+}
+/* E */
+.kamushki p:nth-last-of-type(22) {
+  top: 92px;
+  left: 888px;
+}
+/* F */
+.kamushki p:nth-last-of-type(21) {
+  top: 84px;
+  left: 1086px;
+}
+/* G */
+.kamushki p:nth-last-of-type(20) {
+  top: 63px;
+  left: 1320px;
+}
+/* H */
+.kamushki p:nth-last-of-type(19) {
+  top: 400px;
+  left: 92px;
+}
+/* I */
+.kamushki p:nth-last-of-type(18) {
+  top: 262px;
+  left: 268px;
+}
+/* J */
+.kamushki p:nth-last-of-type(17) {
+  top: 372px;
+  left: 455px;
+}
+/* K */
+.kamushki p:nth-last-of-type(16) {
+  top: 254px;
+  left: 628px;
+}
+/* L */
+.kamushki p:nth-last-of-type(15) {
+  top: 300px;
+  left: 836px;
+}
+/* M */
+.kamushki p:nth-last-of-type(14) {
+  top: 254px;
+  left: 1014px;
+}
+/* N */
+.kamushki p:nth-last-of-type(13) {
+  top: 396px;
+  left: 1147px;
+}
+/* O */
+.kamushki p:nth-last-of-type(12) {
+  top: 246px;
+  left: 1300px;
+}
+/* P */
+.kamushki p:nth-last-of-type(11) {
+  top: 639px;
+  left: 99px;
+}
+/* Q */
+.kamushki p:nth-last-of-type(10) {
+  top: 504px;
+  left: 263px;
+}
+/* R */
+.kamushki p:nth-last-of-type(9) {
+  top: 702px;
+  left: 314px;
+}
+/* S */
+.kamushki p:nth-last-of-type(8) {
+  top: 623px;
+  left: 488px;
+}
+/* T */
+.kamushki p:nth-last-of-type(7) {
+  top: 494px;
+  left: 627px;
+}
+/* U */
+.kamushki p:nth-last-of-type(6) {
+  top: 490px;
+  left: 876px;
+}
+/* V */
+.kamushki p:nth-last-of-type(5) {
+  top: 563px;
+  left: 1031px;
+}
+/* W */
+.kamushki p:nth-last-of-type(4) {
+  top: 520px;
+  left: 1310px;
+}
+/* X */
+.kamushki p:nth-last-of-type(3) {
+  top: 676px;
+  left: 658px;
+}
+/* Y */
+.kamushki p:nth-last-of-type(2) {
+  top: 668px;
+  left: 876px;
+}
+/* Z */
+.kamushki p:nth-last-of-type(1) {
+  top: 682px;
+  left: 1178px;
+}
+/* Секция 4-5*/
+.section-4 {
+  display: flex;
+  width: 100%;
+  height: 1700px;
+  background-color: #e9e1d5;
+  overflow: hidden;
+  position: relative;
+}
+/* вставляла для соотношения размеров */
+/* .section-4 {
+  background-image: url('../images/holst4.svg');
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 1700px;
+} */
+.star1 {
+  position: absolute;
+  margin-top: 31px;
+  margin-left: 31px;
+  background-repeat: no-repeat;
+}
+.centralwanted {
+  position: absolute;
+  width: 776px;
+  height: 743px;
+  margin-top: 52px;
+  margin-left: 332px;
+  background-repeat: no-repeat;
+}
+.kaktus41 {
+  position: absolute;
+  width: 250px;
+  height: 717px;
+  margin-top: 156px;
+  margin-left: 63px;
+  background-repeat: no-repeat;
+}
+.kaktus42 {
+  position: absolute;
+  width: 265px;
+  height: 600px;
+  margin-top: 67px;
+  margin-left: 1157px;
+  background-repeat: no-repeat;
+}
+.section-4 div h3 {
+  font-size: 120px;
+  font-weight: 700;
+  color: #4b342c;
+  position: absolute;
+  top: 64px;
+  left: 479px;
+  z-index: 3;
+}
+.wanted p {
+  font-size: 40px;
+  font-weight: 400;
+  color: #4b342c;
+  position: absolute;
+  z-index: 3;
+}
+/* Подписи к wanted 1 */
+.wanted p:nth-last-of-type(4) {
+  top: 562px;
+  left: 544px;
+}
+.wanted p:nth-last-of-type(3) {
+  top: 602px;
+  left: 519px;
+}
+.wanted p:nth-last-of-type(2) {
+  top: 668px;
+  left: 530px;
+  font-size: 60px;
+}
+.wanted p:nth-last-of-type(1) {
+  top: 728px;
+  left: 634px;
+}
+.star2 {
+  position: absolute;
+  margin-top: 810px;
+  margin-left: 405px;
+  background-repeat: no-repeat;
+}
+.star3 {
+  position: absolute;
+  margin-top: 894px;
+  margin-left: 1138px;
+  background-repeat: no-repeat;
+}
+
+.thin {
+  position: absolute;
+  margin-top: 898px;
+  margin-left: 64px;
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+.bold {
+  position: absolute;
+  margin-top: 1168px;
+  margin-left: 399px;
+  background-repeat: no-repeat;
+}
+.light {
+  position: absolute;
+  margin-top: 899px;
+  margin-left: 744px;
+  background-repeat: no-repeat;
+}
+.book {
+  position: absolute;
+  margin-top: 1168px;
+  margin-left: 1078px;
+  background-repeat: no-repeat;
+}
+.kaktus43 {
+  position: absolute;
+  margin-top: 1312px;
+  margin-left: 125px;
+  background-repeat: no-repeat;
+  z-index: 3;
+}
+.kaktus44 {
+  position: absolute;
+  margin-top: 1468px;
+  margin-left: 739px;
+  background-repeat: no-repeat;
+}
+/* подпись к wanted thin */
+.wantedthin p {
+  font-size: 40px;
+  font-weight: 100;
+  color: #4b342c;
+  position: absolute;
+  z-index: 3;
+}
+.wantedthin p:nth-last-of-type(1) {
+  top: 1258px;
+  left: 103px;
+}
+.wantedthin p:nth-last-of-type(2) {
+  top: 1198px;
+  left: 110px;
+}
+.wantedthin p:nth-last-of-type(3) {
+  top: 905px;
+  left: 136px;
+  font-size: 64px;
+}
+/* подпись к wanted bold */
+.wantedbold p {
+  font-size: 40px;
+  font-weight: 700;
+  color: #4b342c;
+  position: absolute;
+  z-index: 3;
+}
+.wantedbold p:nth-last-of-type(1) {
+  top: 1520px;
+  left: 438px;
+}
+.wantedbold p:nth-last-of-type(2) {
+  top: 1470px;
+  left: 445px;
+}
+.wantedbold p:nth-last-of-type(3) {
+  top: 1180px;
+  left: 470px;
+  font-size: 64px;
+}
+/* подпись к wanted lihgt */
+.wantedlight p {
+  font-size: 40px;
+  font-weight: 200;
+  color: #4b342c;
+  position: absolute;
+  z-index: 3;
+}
+.wantedlight p:nth-last-of-type(1) {
+  top: 1247px;
+  left: 791px;
+}
+.wantedlight p:nth-last-of-type(2) {
+  top: 1203px;
+  left: 794px;
+}
+.wantedlight p:nth-last-of-type(3) {
+  top: 906px;
+  left: 817px;
+  font-size: 64px;
+}
+/* подпись к wanted book */
+.wantedbook p {
+  font-size: 40px;
+  font-weight: 300;
+  color: #4b342c;
+  position: absolute;
+  z-index: 3;
+}
+.wantedbook p:nth-last-of-type(1) {
+  top: 1516px;
+  left: 1140px;
+}
+.wantedbook p:nth-last-of-type(2) {
+  top: 1464px;
+  left: 1134px;
+}
+.wantedbook p:nth-last-of-type(3) {
+  top: 1180px;
+  left: 1154px;
+  font-size: 64px;
+}
+/* Секция 6*/
+.section-5 {
+  display: flex;
+  width: 100%;
+  height: 850px;
+  background-color: #747a56;
+  overflow: hidden;
+  position: relative;
+}
+/* вставляла для соотношения размеров */
+/* .section-5 {
+  background-image: url('../images/holst6.jpg');
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 850px;
+} */
+.bull {
+  position: absolute;
+  margin-top: 18px;
+  margin-left: 756px;
+  background-repeat: no-repeat;
+}
+.koleso7 {
+  position: absolute;
+  margin-top: 330px;
+  margin-left: 1030px;
+  background-repeat: no-repeat;
+  z-index: 3;
+}
+.koleso6 {
+  position: absolute;
+  margin-top: 550px;
+  margin-left: 842px;
+  background-repeat: no-repeat;
+  z-index: 3;
+}
+.baner7 {
+  position: absolute;
+  margin-top: 74px;
+  margin-left: 42px;
+  background-repeat: no-repeat;
+}
+.baner6 {
+  position: absolute;
+  width: 404px;
+  height: 621px;
+  margin-top: 242px;
+  margin-left: 528px;
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+.section-5 div p {
+  font-size: 28px;
+  font-weight: 400;
+  color: #e9e1d5;
+  position: absolute;
+  z-index: 3;
+}
+.section-5 p:nth-last-of-type(2) {
+  width: 417px;
+  height: 238px;
+  top: 103px;
+  left: 67px;
+  line-height: 120%;
+}
+.section-5 p:nth-last-of-type(1) {
+  width: 356px;
+  height: 170px;
+  top: 268px;
+  left: 554px;
+  line-height: 120%;
+}
+/* Секция 7*/
+.section-6 {
+  display: flex;
+  width: 100%;
+  height: 850px;
+  background-color: #4b342c;
+  overflow: hidden;
+  position: relative;
+}
+/* вставляла для соотношения размеров */
+/* .section-6 {
+  background-image: url('../images/holst7.jpg');
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 850px;
+} */
+.bottle1 {
+  position: absolute;
+  margin-top: 191px;
+  margin-left: 28px;
+  background-repeat: no-repeat;
+}
+.bottle2 {
+  position: absolute;
+  margin-top: 152px;
+  margin-left: 315px;
+  background-repeat: no-repeat;
+}
+.bottle3 {
+  position: absolute;
+  margin-top: 175px;
+  margin-left: 582px;
+  background-repeat: no-repeat;
+}
+.bottle4 {
+  position: absolute;
+  margin-top: 188px;
+  margin-left: 856px;
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+.bottle5 {
+  position: absolute;
+  margin-top: 172px;
+  margin-left: 1092px;
+  background-repeat: no-repeat;
+  z-index: 3;
+}
+.zagolovki p {
+  font-size: 40px;
+  font-weight: 700;
+  color: #4b342c;
+  position: absolute;
+  z-index: 3;
+}
+.zagolovki p:nth-last-of-type(1) {
+  width: 188px;
+  height: 140px;
+  top: 549px;
+  left: 1190px;
+}
+.zagolovki p:nth-last-of-type(2) {
+  width: 178px;
+  height: 111px;
+  top: 525px;
+  left: 900px;
+  text-align: center;
+}
+.zagolovki p:nth-last-of-type(3) {
+  width: 174px;
+  height: 144px;
+  top: 525px;
+  left: 618px;
+  text-align: center;
+}
+.zagolovki p:nth-last-of-type(4) {
+  width: 159px;
+  height: 176px;
+  top: 525px;
+  left: 356px;
+  text-align: center;
+}
+.zagolovki p:nth-last-of-type(5) {
+  width: 174px;
+  height: 176px;
+  top: 525px;
+  left: 74px;
+  text-align: center;
+}
+.podpisi p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #4b342c;
+  position: absolute;
+  z-index: 3;
+}
+.podpisi p:nth-last-of-type(1) {
+  width: 188px;
+  height: 140px;
+  top: 599px;
+  left: 1194px;
+}
+.podpisi p:nth-last-of-type(2) {
+  width: 174px;
+  height: 144px;
+  top: 615px;
+  left: 925px;
+}
+.podpisi p:nth-last-of-type(3) {
+  width: 174px;
+  height: 144px;
+  top: 619px;
+  left: 643px;
+}
+.podpisi p:nth-last-of-type(4) {
+  width: 174px;
+  height: 144px;
+  top: 615px;
+  left: 379px;
+}
+.podpisi p:nth-last-of-type(5) {
+  width: 174px;
+  height: 144px;
+  top: 615px;
+  left: 103px;
+}
+.yaz106 p {
+  font-size: 100px;
+  font-weight: 700;
+  color: #d2c1a7;
+  position: absolute;
+  z-index: 3;
+  top: 37px;
+  left: 517px;
+}
+/* Секция 8 */
+.section-7 {
+  display: flex;
+  width: 100%;
+  height: 850px;
+  background-color: #e9e1d5;
+  overflow: hidden;
+  position: relative;
+}
+/* вставляла для соотношения размеров */
+/* .section-7 {
+  background-image: url('../images/holst8.jpg');
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 850px;
+} */
+.zvezdabig {
+  position: absolute;
+  margin-top: 212px;
+  margin-left: 487px;
+  background-repeat: no-repeat;
+}
+.kor1 {
+  position: absolute;
+  margin-top: 28px;
+  margin-left: 37px;
+  background-repeat: no-repeat;
+}
+.zhlt2 {
+  position: absolute;
+  margin-top: 31px;
+  margin-left: 408px;
+  background-repeat: no-repeat;
+}
+.kor3 {
+  position: absolute;
+  margin-top: 31px;
+  margin-left: 801px;
+  background-repeat: no-repeat;
+}
+.kor4 {
+  position: absolute;
+  margin-top: 51px;
+  margin-left: 1122px;
+  background-repeat: no-repeat;
+}
+.kor5 {
+  position: absolute;
+  margin-top: 296px;
+  margin-left: 178px;
+  background-repeat: no-repeat;
+}
+.zhlt6 {
+  position: absolute;
+  margin-top: 302px;
+  margin-left: 978px;
+  background-repeat: no-repeat;
+}
+.zhlt7 {
+  position: absolute;
+  margin-top: 518px;
+  margin-left: 27px;
+  background-repeat: no-repeat;
+}
+.kor8 {
+  position: absolute;
+  margin-top: 560px;
+  margin-left: 354px;
+  background-repeat: no-repeat;
+}
+.kor9 {
+  position: absolute;
+  margin-top: 560px;
+  margin-left: 828px;
+  background-repeat: no-repeat;
+}
+.kor10 {
+  position: absolute;
+  margin-top: 526px;
+  margin-left: 1131px;
+  background-repeat: no-repeat;
+}
+.history p {
+  font-size: 24px;
+  font-weight: 400;
+  color: #ffffff;
+  position: absolute;
+  z-index: 3;
+  text-align: center;
+}
+/* история создания */
+.history p:nth-last-of-type(1) {
+  width: 238px;
+  height: 141px;
+  top: 379px;
+  left: 605px;
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+}
+/* 10 */
+.history p:nth-last-of-type(2) {
+  width: 197px;
+  height: 112px;
+  top: 620px;
+  left: 1182px;
+}
+/* 9 */
+.history p:nth-last-of-type(3) {
+  width: 168px;
+  height: 112px;
+  top: 653px;
+  left: 894px;
+}
+/* 8 */
+.history p:nth-last-of-type(4) {
+  width: 228px;
+  height: 117px;
+  top: 639px;
+  left: 388px;
+}
+/* 7 */
+.history p:nth-last-of-type(5) {
+  width: 224px;
+  height: 124px;
+  top: 609px;
+  left: 67px;
+}
+/* 6 */
+.history p:nth-last-of-type(6) {
+  width: 168px;
+  height: 78px;
+  top: 398px;
+  left: 1045px;
+}
+/* 5 */
+.history p:nth-last-of-type(7) {
+  width: 168px;
+  height: 78px;
+  top: 391px;
+  left: 242px;
+}
+/* 4 */
+.history p:nth-last-of-type(8) {
+  width: 195px;
+  height: 78px;
+  top: 146px;
+  left: 1174px;
+}
+/* 3 */
+.history p:nth-last-of-type(9) {
+  width: 159px;
+  height: 174px;
+  top: 122px;
+  left: 871px;
+}
+/* 2 */
+.history p:nth-last-of-type(10) {
+  width: 137px;
+  height: 75px;
+  top: 128px;
+  left: 489px;
+}
+/* 1 */
+.history p:nth-last-of-type(11) {
+  width: 121px;
+  height: 75px;
+  top: 124px;
+  left: 127px;
+}
+/* Секция 9 */
+.section-8 {
+  display: flex;
+  width: 100%;
+  height: 850px;
+  background-color: #4b342c;
+  overflow: hidden;
+  position: relative;
+}
+/* вставляла для соотношения размеров */
+/* .section-8 {
+  background-image: url('../images/holst9.jpg');
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 850px;
+} */
+.rec1 {
+  position: absolute;
+  margin-top: 94px;
+  margin-left: 343px;
+  background-repeat: no-repeat;
+}
+.rec2 {
+  position: absolute;
+  margin-top: 94px;
+  margin-left: 777px;
+  background-repeat: no-repeat;
+}
+.skuf1 {
+  position: absolute;
+  margin-top: 32px;
+  margin-left: 86px;
+  background-repeat: no-repeat;
+}
+.skuf2 {
+  position: absolute;
+  margin-top: 165px;
+  margin-left: 178px;
+  background-repeat: no-repeat;
+}
+.skuf3 {
+  position: absolute;
+  margin-top: 327px;
+  margin-left: 60px;
+  background-repeat: no-repeat;
+}
+.skuf4 {
+  position: absolute;
+  margin-top: 502px;
+  margin-left: 127px;
+  background-repeat: no-repeat;
+}
+.skuf5 {
+  position: absolute;
+  margin-top: 94px;
+  margin-left: 1232px;
+  background-repeat: no-repeat;
+}
+.skuf6 {
+  position: absolute;
+  margin-top: 276px;
+  margin-left: 1321px;
+  background-repeat: no-repeat;
+}
+.skuf7 {
+  position: absolute;
+  margin-top: 348px;
+  margin-left: 1183px;
+  background-repeat: no-repeat;
+}
+.skuf8 {
+  position: absolute;
+  margin-top: 538px;
+  margin-left: 1267px;
+  background-repeat: no-repeat;
+}
+.kovb {
+  position: absolute;
+  margin-top: 158px;
+  margin-left: 432px;
+  background-repeat: no-repeat;
+  z-index: 3;
+}
+.kovg {
+  position: absolute;
+  margin-top: 158px;
+  margin-left: 856px;
+  background-repeat: no-repeat;
+  z-index: 3;
+}
+.hype {
+  font-size: 70px;
+  font-weight: 400;
+  color: #682d0f;
+  position: absolute;
+  z-index: 3;
+  text-align: center;
+}
+.hype p:nth-last-of-type(1) {
+  width: 242px;
+  height: 81px;
+  margin-top: 637px;
+  margin-left: 837px;
+  position: absolute;
+}
+.hype p:nth-last-of-type(2) {
+  width: 170px;
+  height: 81px;
+  margin-top: 637px;
+  margin-left: 441px;
+  position: absolute;
+}
+.podval {
+  font-size: 40px;
+  font-weight: 400;
+  color: #d4a913;
+  position: absolute;
+  z-index: 3;
+}
+.podval p:nth-last-of-type(1) {
+  width: 546px;
+  height: 40px;
+  margin-top: 804px;
+  margin-left: 1226px;
+  position: absolute;
+}
+.podval p:nth-last-of-type(2) {
+  width: 546px;
+  height: 40px;
+  margin-top: 804px;
+  margin-left: 606px;
+  position: absolute;
+}
+.podval p:nth-last-of-type(3) {
+  width: 546px;
+  height: 40px;
+  margin-top: 804px;
+  margin-left: 37px;
+  position: absolute;
+}
